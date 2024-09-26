@@ -1,0 +1,548 @@
+body{
+    background: url(tloruchome1.gif);
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Kalam', cursive;
+    color: black;
+}
+
+.navbar_boki {
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin-top: 48px;
+    
+}
+#navbarlogo{
+    height: 150px;
+}   
+.navbar{
+    background-color: #c6e9fd;
+    height: 120px;
+    width: 100%;
+    font-size: 1rem;
+    border-bottom: 7px solid black;
+}
+*{
+    cursor: url(pointer.png), auto;
+    margin: 0%;
+}
+a:hover{
+    cursor: url(pointer2.png), auto !important; 
+}
+a:link {
+    text-decoration: none !important; 
+    color: black;
+}
+*::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #c6e9fd;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-repeat: no-repeat;
+    background-position: center;
+    background: radial-gradient(circle, rgba(237,58,58,1) 0%, rgba(237,58,58,0) 100%);
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+    *::-webkit-scrollbar-thumb:hover {
+    background: radial-gradient(circle, rgba(237,58,58,1) 0%, rgba(237,58,58,0.25) 100%);
+    }
+    *::-webkit-scrollbar-thumb:active {
+    background: rgba(237,58,58,1);
+    border-radius: 10px;
+    }
+#historia{
+    text-align: center;
+    color: black;
+    float: left;
+}
+#contener{
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
+}
+.historia{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.pokemon1{
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 10px;
+}
+.pokemon1hist
+{
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 1vw;
+    font-size: 20px;
+}
+@media screen and (max-width: 1400px)
+{
+    .pokemon1hist
+    {
+        margin-left: 5vw !important;
+        margin-right: 5vw !important;
+        margin-top: 1vw !important;
+        font-size: 2vw !important;
+    }
+    .foot
+    {
+        margin-top: calc(100% + 100vw) !important;
+    }
+}
+@media screen and (max-width: 1700px)
+{
+    .foot
+    {
+        margin-top: calc(100% + 45vw) !important;
+    }
+}
+@media screen and (max-width: 1300px)
+{
+    .foot
+    {
+        margin-top: calc(100% + 80vw) !important;
+    }
+}
+a:visited{
+    color: black;   
+}
+#zdj1{
+    width: 30vw;
+    border: 2px solid black;
+}
+#zdj2{
+    border: 2px solid black;
+    width: 30vw;
+    
+}
+#rodzaje{
+    width: 100%;
+    margin-bottom: 75px;
+    height: 200px;
+}
+#tytuly{
+    height: 200px;
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+#tytul1{
+    width: 33%;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    float: left;
+}
+#tytul2{
+    margin-left: 12vw;
+    font-size: 50px;
+    
+}
+
+#tytul3{
+    margin-left: 14vw;
+}
+#tytul4{
+    width: 33%;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 50px;
+    float: left;
+    margin-top: 100px;
+}
+#tytul5{
+    width: 33%;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 50px;
+    float: left;
+    margin-top: 100px;
+}
+#jeabc{
+    margin-top: 300px;
+}
+#kontry{
+    width: 35%;
+    float: right;
+    text-align: center;
+}
+#kontry2{
+    width: 35%;
+    float: right;
+    text-align: center;
+}
+#tytul6{
+    padding: 1%;
+}
+
+
+.logowanie
+{
+    width: 50%;
+    padding: 10%;
+    float: left;
+}
+.form-control
+{
+    border: 2px solid black !important;
+    background-color: rgba(237,58,58,1)!important;
+}
+.rejestracja
+{
+    width: 50%;
+    float: left;
+    padding: 10%;
+}
+.navbarl{
+    background-color: #c6e9fd;
+    height: 120px;
+    width: 100%;
+    font-size: 1rem;
+    border-bottom: 7px solid black;
+}
+.navbarl{
+    background-color: #c6e9fd;
+    height: 120px;
+    width: 100%;
+    font-size: 1rem;
+    border-bottom: 7px solid black;
+}
+.logowanie h3
+{
+    text-align: center;
+}
+.rejestracja h3
+{
+    text-align: center;
+}
+#obrazek1{
+    float: left;
+    margin-left: 100px;
+}
+#napis1{
+    margin-left: 550px;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-right: 100px;
+}
+#pokemon1{
+    margin-left: 12%;
+    float: left;
+    margin-top: 100px;
+}
+@media screen and (max-width: 960px)
+{
+    #pokemon1
+    {
+        margin-left: 5%;
+        margin-top: 8%;
+    }
+    #napis3 p
+    {
+        font-size: 2vw;
+    }
+    #napis3
+    {
+        margin-right: 1vw !important;
+    }
+}
+#pokemon1 p{
+    text-align: center;
+}
+#napis2{
+    margin-top: 200px;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+#tytul2
+{
+    background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: podswietl 3s ease infinite;
+}
+
+@keyframes podswietl
+{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#napis3{
+    margin-left: 550px;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-right: 20%;
+}
+#tytul11{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#rodzaje111{
+    float: right;
+    margin-right: 200px;
+}
+#contener2{
+    width: 33%;
+}
+.team
+{
+    padding: 10px;
+    margin-left: auto;
+    padding: 10px;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    color: white;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10%;
+}
+.napisTeaminstinct
+{
+    font-weight: bold;
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,0,1) 0%, rgba(255,157,0,1) 50%, rgba(193,171,29,1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: podswietl 3s ease infinite;
+}
+.napisTeammystic
+{
+    font-weight: bold;
+    background: -webkit-linear-gradient(-45deg, rgba(3,0,255,1) 0%, rgba(0,185,255,1) 50%, rgba(0,105,96,1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: podswietl 3s ease infinite;
+}
+.napisTeamvalor
+{
+    font-weight: bold;
+    background: -webkit-linear-gradient(-45deg, rgba(255,0,0,1) 0%, rgba(152,38,0,1) 50%, rgba(255,89,0,1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: podswietl 3s ease infinite;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+
+.content {
+  position: fixed;
+}
+footer
+{
+    background-color: #c6e9fd;
+    height: 120px;
+    font-size: 1rem;
+    border-top: 7px solid black;
+    padding: 20px;
+}
+#napis12{
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    font-size: 40px;
+    margin-top: 100px;
+}
+#rodzaje111{
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+#rodzaje112{
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  #rodo{
+      text-align: center;
+      margin-top: 50px;
+  }
+.aut
+{
+    background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: podswietl 3s ease infinite;
+    font-weight: bold;
+    font-size: 50px;
+    height: 90%;
+}
+@keyframes powieksz
+{
+    0% {
+        z-index: 10;
+        height: 100px;
+        width: 100px;
+    }
+    20% {
+        height: 125px;
+        width: 125px;
+    }
+    50% {
+        height: 100px;
+        width: 100px;
+    }
+    80% {
+        height: 100px;
+        width: 100px;
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes obrot
+{
+    0% {
+        z-index: 10;
+    }
+    80% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes powieksztyp
+{
+    0% {
+        z-index: 10;
+    }
+    10%
+    {
+        transform: rotate(30deg);
+    }
+    20%
+    {
+        transform: rotate(-30deg);
+    }
+    30%
+    {
+        transform: rotate(0deg);
+    }
+    60%
+    {
+        height: 300px;
+        width: 300px;
+    }
+    80% {
+        height: 400px;
+        width: 400px;
+    }
+    100% {
+        height: 300px;
+        width: 300px;
+    }
+}
+@keyframes kreciol
+{
+    from { transform: rotate(0deg) translateX(50px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(50px) rotate(-360deg); }
+}
+@keyframes poke
+{
+    0% {
+        z-index: 10;
+    }
+    40%
+    {
+        transform: translateY(0px);
+    }
+    70% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+@keyframes obrot2
+{
+    0% {
+        z-index: 10;
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.zdjecie
+{
+    animation: powieksz 10s ease infinite;
+}
+.zdjeciedel
+{
+    animation: powieksz 10s 5s infinite;
+}
+.imgobrot
+{
+    animation: obrot 5s ease infinite;
+}
+.kreciol
+{
+    margin-left: -15%;
+    position: absolute;
+    z-index: -5;
+    animation: kreciol 5s ease infinite;
+}
+.dozdjecia
+{
+    height: 20vw;
+}
+.typ
+{
+    position: absolute;
+     z-index: -1;
+    animation: powieksztyp 5s ease infinite;
+}
+.poke
+{
+    position: absolute;
+     z-index: -1;
+    animation: poke 5s ease infinite;
+}
+.obroc
+{
+    animation: obrot2 2.5s ease infinite;
+}
+model-viewer {
+  width: 500px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}

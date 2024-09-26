@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>POKEMONY 😎</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="shortcut icon" href="pokeballson2115.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Kalam:wght@700&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+    <script>
+        function player1(){
+            var audio = new Audio('pika_pi.mp3');
+            audio.play();
+            setTimeout(function(){window.location.href = "pokemony.html"}, 1000);
+        }
+        function player2(){
+            var audio = new Audio('I_choose_you_-_Pokemon_Anime_-_Sound_Effect.mp3');
+            audio.play();
+            setTimeout(function(){window.location.href = "rodzaje.html"}, 1000);
+        }
+        function player3(){
+            var audio = new Audio('Pokemon_A_Button_-_Sound_Effect_HD.mp3');
+            audio.play();
+            setTimeout(function(){window.location.href = "pokedex.html"}, 1000);
+        }
+        function player4(){
+            var audio = new Audio('Pokemon-Red-_-Blue-OST-Sound-Effects-_mp3cut.net_.mp3');
+            audio.play();
+            setTimeout(function(){window.location.href = "logowanie.html"}, 1000);
+        }
+        </script>
+    <div class="navbar" id="navbar">
+          <div class="navbar_boki">
+             <i class=""></i>
+              <b>
+                  <a onClick="player1()">
+                      <span>P</span>
+                      <span>O</span>
+                      <span>K</span>
+                      <span>E</span>
+                      <span>M</span>
+                      <span>O</span>
+                      <span>N</span>
+                      <span>Y</span>
+                  </a>
+              </b>
+          </div>
+          <div class="navbar_boki">
+            <i class=""></i>
+             <b>
+                 <a onClick="player2()">
+                     <span>R</span>
+                     <span>O</span>
+                     <span>D</span>
+                     <span>Z</span>
+                     <span>A</span>
+                     <span>J</span>
+                     <span>E</span>
+                 </a>
+             </b>
+         </div>
+        <div class="navbar_boki" id="navbarlogo">
+            <a href="index.html">
+            <img id="navbarlogo" src="logo.png" width="150" height="100">
+               </a>
+              </div>
+         <div class="navbar_boki">
+            <i class=""></i>
+             <b>
+                <a onClick="player3()">
+                    <span>A</span>
+                    <span>U</span>
+                    <span>T</span>
+                    <span>O</span>
+                    <span>R</span>
+                    <span>Z</span>
+                    <span>Y</span>
+                </a>
+             </b>
+         </div>
+         <div class="navbar_boki">
+            <i class=""></i>
+                <b>
+                    <a onClick="player4()">
+                        <span>T</span>
+                        <span>E</span>
+                        <span>A</span>
+                        <span>M</span>
+                        <span>Y</span>
+                    </a>
+            </b>
+         </div>
+    </div>
+    <div style="width: 80%; margin-left: auto; margin-right: auto; text-align: center;">
+    <br><br><br><br><h1 class="aut">1. Stanisław Rojewski&nbsp;<img src="logo.png" width="50" height="50" class="obroc"></h1><br><br>
+    <h1 class="aut">2. Sebastian Lesner&nbsp;<img src="logo.png" width="50" height="50" class="obroc"></h1>
+    </div>
+    <model-viewer src="http://pokemony.j.pl/pokeball3d1.glb"
+  ar ar-scale="auto"
+  disable-zoom
+  camera-controls
+  camera-orbit="90deg 90deg 6.5m"
+  alt="A 3D model of an office chair.">
+</model-viewer>
+    <footer><div style="text-align: center; font-size: 20px; width: 70%;">Strona Pokemon &copy; 2022</div><div style="float: right; margin-right: 10px; margin-top: -30px;"><a href="https://www.facebook.com/Pokemon"><img src="fb.png" alt="facebook" style="height: 70px; cursor: pointer;"></a>&nbsp;&nbsp;<a href="https://www.youtube.com/c/pokemon"><img src="yt.png" alt="youtube" style="height: 70px; cursor: pointer;"></a>&nbsp;&nbsp;<a href="https://www.instagram.com/pokemon/?hl=pl"><img src="ig.png" alt="instagram" style="height: 70px; cursor: pointer;"></a></div></footer>
+</body>
+</html>
